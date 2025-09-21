@@ -1,0 +1,173 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{resume3}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black, filecolor=black, urlcolor=black,
+  pdftitle={Mike Rabayda Resume}, pdfpagemode=FullScreen,
+  pdfcreator={LaTeX with hyperref}, pdfproducer={LaTeX},
+  pdfborder={0 0 0}, pdfhighlight=/P
+}
+
+\usepackage{xcolor}
+\definecolor{blue}{HTML}{2c529e}
+\usepackage{fontawesome5}
+
+\begin{document}
+\pagestyle{empty}
+
+
+\name{Mike Rabayda}
+
+\vspace{-0.5cm}
+\address{%
+  267-753-5299 $\cdot$
+  \href{mailto:mrabayda4@icloud.com}{mrabayda4@icloud.com} $\cdot$
+  Philadelphia, PA $\cdot$
+}
+\vspace{-0.7cm}
+\address{% 
+  \href{https://www.linkedin.com/in/michael-rabayda/}{\textcolor{blue}{\faIcon{linkedin}\ linkedin.com/in/michael-rabayda}}
+  \href{https://github.com/mikerabs}{\textcolor{blue}{\faIcon{github}\ github.com/mikerabs}}
+  \href{https://www.mikerabayda.com/}{\textcolor{blue}{\faIcon{link}\ mikerabayda.com}}
+  }
+\vspace{-0.5cm}
+
+\begin{rSection}{Summary}
+\vspace{0.15cm}
+Software Developer and Data Scientist with expertise in full-stack development, data analysis, project management, and cloud architecture. Proven track record of managing development teams and delivering scalable systems. Strong background in machine learning and rapid product development.  Former Division I Starting Pitcher.
+\end{rSection}
+
+\begin{rSection}{EMPLOYMENT HISTORY}
+
+\vspace{0.15cm}
+{\bf Upside Global} - techstars\_ funded Consulting Firm - Remote - {\em Data Scientist Intern} \hfill {\em April 2025 – Present}
+\begin{itemize}
+\item Architected \textbf{AI Chatbot} database as sole Data Engineer, enabling GMs to query and compare professional-grade sports products in real time.
+\item Normalized all vendor data submissions using \textbf{Python scripting}, ensuring high‐quality inputs for chat responses.
+\item Automated marketing analytics with lightweight \textbf{JS} scripts to parse podcast and blog engagement, capturing which teams viewed content, eliminating manual tallying time by 1 hour per report and accelerating outreach.
+\end{itemize}
+
+{\bf HC Digital Scholarship} - Web App Service - Remote - {\em Web App Consultant} \hfill {\em September 2023 – August 2024} 
+\begin{itemize}
+\item Coordinated \textbf{MongoDB} database migration to store corpus of 270+ Latin texts for all webapps.
+\item Successfully \textbf{containerized} entire web application, ensuring compatibility and ease of setup for all team members across different environments. 
+\item Promoted to team lead \textbf{managing four developers} after successful deployment of Latin statistics web app.
+\item Managed development team remotely using \textbf{Scrum} methodologies.
+\item Authored comprehensive guidelines for setting up development environments, reducing the onboarding timeline for new team members from 2 weeks to 3 days.
+\end{itemize}
+
+{\bf HC Digital Scholarship} - Web App Service - Ardmore, PA - {\em Web App Engineer} \hfill {\em June 2023 – August 2023} 
+\begin{itemize}
+\item Secured NIH-backed funding enabling next quarter hires 
+\item Developed \textbf{full-stack} web application using \textbf{FastAPI} and \textbf{JS} to calculate student readability scores for Latin texts based on LexR, enhancing educational tools for students and educators in classics.
+\item Reduced ticket resolution time by \textbf{40\%} by migrating project management system to Notion attributing ownership and centralizing project data. 
+\item Established comprehensive project wiki with documentation to onboard new developers and streamline development processes, improving project organization and team efficiency.
+\end{itemize}
+
+{\bf International Data Corporation} - IDG's Tech Consulting Firm - {\em CX Data Analyst Intern} \hfill {\em May 2022 – August 2022} 
+\begin{itemize}
+\item Presented \textbf{churn analysis} to Global Vice Prseident of CX, guiding focus initiatives within Customer Success related to logo retention.
+\item Identified product laggards utilizing \textbf{pivot tables} and \textbf{vlookup} on Salesforce data.
+\item Cleaned account bookings data to be used for customer retention rate models.
+\item Centralized significant international customers guiding a global customer survey, yielding over 1100 responses
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{TECHNICAL SKILLS}
+
+\vspace{0.15cm}
+{\bf Languages:} Python, Java, JavaScript, C\#, HTML, CSS, Bash
+\\{\bf AI Tools:} ChatGPT, Copilot, Gemini, Cursor, Ollama, PyTorch
+\\{\bf Data Analysis:} Pandas, R, Tableau, Salesforce, Power BI, Office365, D3.js
+\\{\bf Cloud \& Tools:} AWS, Google Cloud, GitHub, Docker, Docker Compose, DigitalOcean, Linux 
+\\{\bf Data Engineering:} PostgreSQL, MySQL, MongoDB, CassandraDB, Hadoop(HDFS), Spark, Kafka, Airflow, Confluent
+\\{\bf Methodologies:} Agile, Scrum, CI/CD, Object Oriented Design, API Integration, Database Migration, Containerization
+
+\end{rSection}
+
+\begin{rSection}{Education}
+\vspace{0.15cm}
+  {\bf Fordham University}, Graduate School of Arts \& Sciences \hfill {\em September 2024 - December 2025} 
+  \\M.S. in Data Science \hfill {\em 3.875 GPA}
+\\{\bf Relevant Coursework:} Machine Learning, ML in Finance, Big Data Computing, Relational Databases, NoSQL Databases, Data Visualization, Linear Algebra 
+
+\vspace{2cm}
+
+{\bf Haverford College} \hfill {\em September 2020 - Graduated May 2024} 
+  \\B.S. in Computer Science, Minor in Mathematics \hfill {\em 3.5 GPA}
+\\{\bf Relevant Coursework:} Machine Learning, Databases, Linear Algebra, Analysis of Algorithms, Data Analysis, Compiler Design, Data Structures
+
+\end{rSection}
+
+\begin{rSection}{PROJECTS}
+
+\vspace{0.15cm}
+
+{\underline{{\bf Stuff+ Model for Pitching Grades}}} - (XGBoost, Pandas, Optuna)
+\begin{itemize}
+\item Achieved \textbf{0.133 R²} value explaining 13.3\% of pitch-level Run Value on MLB 2024 data - \textbf{over twice} the signal of existing open-source models.
+\item Designed and implemented \textbf{xRV} and \textbf{xBatSpeed} features to denoise batted-ball outcomes, then standardized the result to an industry-scale Stuff+ index (mean = 100, SD = 10)
+\item Conducted cross-level validation by ranking all NCAA Division I programs by average Stuff+ scores — highlighting SEC (118.3) and ACC (113.9) conference means - demonstrating robust alignment with real-world pitching dominance.
+\end{itemize}
+
+  {\underline{{\bf Enron Email Network Analysis}}} - (Networkx, Pandas, Louvain)
+\begin{itemize}
+\item Implemented \textbf{clustering}, \textbf{community detection}, and traversal analysis to uncover communication patterns, response times, and role-based networks among employees.
+\item Ranked \textbf{in- vs out-degree centrality} to spotlight prolific senders and central recipients.
+\item Generated \textbf{directed graph} visualizations to analyze frequency, burstiness, and anomalies in email communications, identifying key influencers and hidden hierarchical structures within the organization.
+\end{itemize}
+
+
+{\underline{{\bf Transformer Neural Network for Stock Price Prediction}}} - (PyTorch)
+\begin{itemize}
+\item \textbf{Transformer-based Neural Net} model engineered with technical, macroeconomic, and sentiment data and volatility-adaptive augmentation for robust, real-world allocation.
+\item 3905\% portfolio return achieved (2019–2024 backtest), outperforming equal-weight benchmark (1069\%) by over 3.6×.
+\item 22\% lower volatility delivered, improving stability during high-stress market periods (2020, 2022).
+\item 84\% higher Sharpe ratio (2.740 vs 1.488), maximizing risk-adjusted returns through Sharpe-driven optimization.
+\end{itemize}
+
+{\underline{{\bf Pitching Report Site}}} - (Flask, Pandas, HTML)
+\begin{itemize}
+\item Developed \textbf{PDF pitching report} generation webapp from Trackman datasets using \textbf{Flask}, replacing a manual Jupyter workflow with a scalable, production-ready solution.
+\item Built modular \textbf{data pipeline} for ingesting uploaded Trackman files, dynamically generating per-pitcher visualizations and exporting standardized PDF reports.
+\item Integrated configurable Stuff+ metrics, enabling both manual input through the UI and automatic computation via persisted model weights, ensuring flexibility across coaching preferences.
+\item Implemented clean API endpoints and robust file handling to support seamless usage by non-technical staff, while following software engineering best practices for maintainability and deployment.
+\end{itemize}
+
+{{\underline{{\bf User Account Data Pipeline}}}} - (PySpark, Docker, Kafka, Airflow, CassandraDB)
+\begin{itemize}
+  \item Automated \textbf{real-time} user account data pipeline for a \textbf{Google Cloud VM Cluster} using \textbf{Docker Compose}, promoting rapid prototyping and reducing operational complexity.
+\item Centralized system administration by leveraging UIs for \textbf{Airflow}, \textbf{Kafka}, \textbf{Confluent}, and \textbf{Spark Stream} Monitoring, simplifying troubleshooting, pipeline management, and user-access to live system metrics.
+\item Enabled seamless scheduling, triggering, and monitoring of ingestion workflows via Airflow DAGs and built-in web controls, minimizing manual effort and ensuring fast adaptation to business requirements.
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Athletics}
+\vspace{0.15cm}
+ \href{https://fordhamsports.com/sports/baseball/roster/mike-rabayda/14433}{\textcolor{blue}{\underline{{\bf \faIcon{link} Fordham University}}}} 
+\begin{itemize}
+\item Weekend Starting Pitcher
+\item A10 Commissioner’s Honor Roll 
+\end{itemize}
+
+
+ \href{https://haverfordathletics.com/sports/baseball/roster/mike-rabayda/447}{\textcolor{blue}{\underline{{\bf \faIcon{link} Haverford College}}}} 
+\begin{itemize}
+\item Varsity Baseball Captain
+\item Centennial Conference Pitcher of the Year
+\item First-Team All-Centennial Conference
+\item Philly-SIDA Academic All-Area Team 
+\item ABCA's Team Academic Excellence Award
+\item Centennial Conference Spring Academic Honor Roll
+\end{itemize}
+
+\end{rSection}
+
+\end{document}
